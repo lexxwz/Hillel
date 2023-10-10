@@ -50,7 +50,7 @@ for (const value of sortArray) {
 const deletedArray = sortArray.splice(2, 3);
 console.log('Видалена частина ' + deletedArray);
 
-// document.getElementById('arr3').innerHTML = finalArray;
+// document.getElementById('arr3').innerHTML = sortArray;
 for (const value of sortArray) {
     document.getElementById('arr3').innerHTML += value + '&nbsp&nbsp';
 }
