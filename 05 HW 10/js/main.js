@@ -40,7 +40,7 @@ for (const value of initialArray) {
     document.getElementById('arr1').innerHTML += value + '&nbsp&nbsp';
 }
 
-const sortArray = initialArray.sort();
+const sortArray = initialArray.sort((a, b) => a - b);
 // document.getElementById('arr2').innerHTML = initialArray;
 for (const value of sortArray) {
     document.getElementById('arr2').innerHTML += value + '&nbsp&nbsp';
