@@ -33,24 +33,26 @@
 // };
 
 // або вбудоване значення
-const initialArray = [10, 0, 15, -4, 14, 0.5, -20, 1.1];
+const initialArray = [10, 0, 15, -4, 14, 0.5, 20, 100];
 
 // document.getElementById('arr1').innerHTML = initialArray + '<br>';
 for (const value of initialArray) {
     document.getElementById('arr1').innerHTML += value + '&nbsp&nbsp';
 }
 
-const sortArray = initialArray.sort((a, b) => a - b);
+const sortArray = initialArray.toSorted((a, b) => a - b);
+
 // document.getElementById('arr2').innerHTML = initialArray;
 for (const value of sortArray) {
     document.getElementById('arr2').innerHTML += value + '&nbsp&nbsp';
 }
 
 // Видалити елементи з масиву з 2 по 4 (включно!)
-const deletedArray = sortArray.splice(2, 3);
+const resultArray = [...sortArray];
+const deletedArray = resultArray.splice(2, 3);
 console.log('Видалена частина ' + deletedArray);
 
-// document.getElementById('arr3').innerHTML = sortArray;
-for (const value of sortArray) {
+// document.getElementById('arr3').innerHTML = resultArray;
+for (const value of resultArray) {
     document.getElementById('arr3').innerHTML += value + '&nbsp&nbsp';
 }
