@@ -49,8 +49,8 @@ for (const value of sortArray) {
 // Видалити елементи з масиву з 2 по 4 (включно!)
 const deletedArray = sortArray.splice(2, 3);
 console.log('Видалена частина ' + deletedArray);
-const finalArray = sortArray;
+
 // document.getElementById('arr3').innerHTML = finalArray;
-for (const value of finalArray) {
+for (const value of sortArray) {
     document.getElementById('arr3').innerHTML += value + '&nbsp&nbsp';
 }
