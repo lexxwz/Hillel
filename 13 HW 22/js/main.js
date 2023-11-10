@@ -56,10 +56,10 @@ class Hamburger {
         return price;
     };
     calculateCalories() {
-        return this.calculate('calories');
+        return `Тут буде ${this.calculate('calories')} калорій`;
     };
     calculatePrice() {
-        return this.calculate('price');
+        return `Остаточна ціна - ${this.calculate('price')} тугриків`;
     }
     checkType(object) {
         if (typeof object === 'object' && !Array.isArray(object)) {
