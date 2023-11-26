@@ -2,7 +2,7 @@ const block = document.querySelector('.block');
 const body = document.querySelector('body');
 
 // як і у попереднбому завданні можно рухатись в рамках body (закоментовано)
-// а можно по всій сторінці
+// а можно по всій сторінці, як у прикладі
 // const maxTop = body.clientHeight - block.clientHeight;
 // const  maxLeft = body.clientWidth - block.clientWidth;
 const maxTop = document.documentElement.clientHeight - block.clientHeight;
