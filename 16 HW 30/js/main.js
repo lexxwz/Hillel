@@ -13,7 +13,10 @@ function random (minValue, maxValue) {
 };
 
 setInterval(function() {
-    block.style.top = random(0, maxTop) + 'px';
-    block.style.left = random(0, maxLeft) + 'px';
     block.style.background = `rgb(${random(0, 255)}, ${random(0, 255)}, ${random(0, 255)})`;
 }, 500);
+
+setInterval(function() {
+    block.style.top = random(0, maxTop) + 'px';
+    block.style.left = random(0, maxLeft) + 'px';
+}, 1000);
