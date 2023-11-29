@@ -1,0 +1,33 @@
+body {
+    min-width: 1000px;
+}
+
+#shop {
+    display: flex;
+    box-sizing: content-box;
+}
+
+#shop > div {
+    margin: 5px;
+    flex: auto;
+    width: 30%;
+    justify-content: space-between;
+}
+
+#shop > div > div {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+#category > div, #list > div {
+    height: 50px;
+}
+
+#item > div {
+    height: 200px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+}

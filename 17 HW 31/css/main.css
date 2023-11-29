@@ -1,0 +1,7 @@
+#redirectBlock > input {
+    width: 100px;
+}
+
+#redirectBlock > input:first-child{
+    width: 500px;
+}
