@@ -1,0 +1,35 @@
+header{
+    text-align: center;
+    position: sticky;
+    top: 22px;
+}
+
+main{
+    display: flex;
+}
+
+nav{
+    display: block;
+    padding: 10px;
+    padding-top: 0;
+}
+
+h2{
+    margin-top: 0;
+}
+
+nav div{
+    display: flex;
+    flex-direction: column;
+}
+
+nav div a{
+    padding-bottom: 10px;
+    font-size: larger;
+}
+
+article{
+    height: 1000px;
+    overflow: scroll;
+    padding-left: 30px;
+}
