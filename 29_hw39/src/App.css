@@ -1,0 +1,21 @@
+td {
+    border: 1px black solid;
+    padding: 10px;
+}
+
+table{
+    border: 1px black solid;
+}
+
+table.border10{
+    border-width: 10px;
+}
+
+table.border20{
+    border-width: 20px;
+}
+
+tr.checked{
+    color: green;
+    font-weight: bold;
+}
