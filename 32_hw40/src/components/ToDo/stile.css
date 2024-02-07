@@ -1,0 +1,19 @@
+div.main {
+    display: flex;
+}
+
+div.block {
+    border: 1px solid black;
+    margin: 10px;
+    min-width: 50px;
+    min-height: 135px;
+    padding: 0 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+div.block ul {
+    padding: 0;
+    height: 100%;
+}
