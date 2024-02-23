@@ -1,0 +1,12 @@
+form, div.edit {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  width: 100px;
+}
+
+label {
+  margin-bottom: 5px;
+}
